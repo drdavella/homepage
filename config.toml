@@ -4,7 +4,7 @@ title = "something witty"
 theme = "hugo-future-imperfect"
 preserveTaxonomyNames = true
 paginate = 3
-disqusShortname = "shortname"
+disqusShortname = ""
 googleAnalytics = ""
 pluralizeListTitles = false
 
@@ -36,7 +36,7 @@ pluralizeListTitles = false
   loadFavicon          = false
   faviconVersion       = ""
   # Sets Social Share links to appear on posts
-  socialShare          = true
+  socialShare          = false
   # Load custom CSS or JavaScript files. The variable is an array so that you
   # can load multiple files if necessary. You can also load the standard theme
   # files by adding the value, "default".
@@ -72,9 +72,9 @@ pluralizeListTitles = false
     # Sets Image to be a cirlce
     circle    = false
     # Sets Image to be Future Imperfect's hexagon
-    imperfect = true
-    width     = ""
-    alt       = "Hugo Future Imperfect"
+    imperfect = false
+    width     = "100"
+    alt       = "It's me!"
 
 [params.postAmount]
 # Sets the number of recent posts to show in the sidebar. The default value is 5.
@@ -123,43 +123,40 @@ pluralizeListTitles = false
 # and socialAppearAtBottom.
 [social]
   # Coding Communities
-  github          = "jpescador/hugo-future-imperfect"
-  gitlab          = ""
-  stackoverflow   = "" # User Number
-  bitbucket       = ""
-  jsfiddle        = ""
-  codepen         = ""
+  github          = "drdavella"
+  #gitlab          = ""
+  #stackoverflow   = "" # User Number
+  #bitbucket       = ""
+  #jsfiddle        = ""
+  #codepen         = ""
   # Visual Art Communities
-  deviantart      = ""
-  flickr          = "example"
-  behance         = ""
-  dribbble        = ""
+  #deviantart      = ""
+  #flickr          = "example"
+  #behance         = ""
+  #dribbble        = ""
   # Publishing Communities
-  wordpress       = ""
-  medium          = ""
+  #wordpress       = ""
+  #medium          = ""
   # Professional/Business Oriented Communities
   linkedin        = "example"
-  foursquare      = ""
-  xing            = ""
-  slideshare      = ""
+  #foursquare      = ""
+  #xing            = ""
+  #slideshare      = ""
   # Social Networks
-  facebook        = "example"
-  googleplus      = ""
-  reddit          = "example"
-  quora           = ""
-  youtube         = ""
-  vimeo           = ""
-  whatsapp        = "" # WhatsApp Number
-    # WeChat and QQ need testing.
-    wechat          = ""
-    qq              = "" # User ID Number
-  instagram       = "example"
-  tumblr          = ""
-  twitter         = "example"
-  skype           = ""
-  snapchat        = ""
-  pinterest       = "example"
-  telegram        = "example"
-  vine            = ""
-  # Email
-  email           = "example"
+  #facebook        = "example"
+  #googleplus      = ""
+  #reddit          = "example"
+  #quora           = ""
+  #youtube         = ""
+  #vimeo           = ""
+  #whatsapp        = "" # WhatsApp Number
+  #instagram       = "example"
+  #tumblr          = ""
+  #twitter         = "example"
+  #skype           = ""
+  #snapchat        = ""
+  #pinterest       = "example"
+  #telegram        = "example"
+  #vine            = ""
+  ## Email
+  #email           = "example"
